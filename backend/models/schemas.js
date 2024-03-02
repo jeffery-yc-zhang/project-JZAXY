@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const listingSchema = new Schema({
     name: { type: String, required: true },
     desc: { type: String, required: true },
-    imageId: { type: String, required: true } // Changed from 'img' to 'imageId' and made it required
+    imageId: { type: String, required: true } 
 });
 
 
